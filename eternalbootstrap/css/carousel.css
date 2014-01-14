@@ -118,6 +118,12 @@ body {
     padding-left:  15px;
     padding-right: 15px;
   }
+/* Navbar custom container */
+.navbar-wrapper .container-new {
+    padding-left:  15px;
+    padding-right: 15px;
+  }
+
   .navbar-wrapper .navbar {
     padding-left:  0;
     padding-right: 0;
