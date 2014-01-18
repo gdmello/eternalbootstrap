@@ -111,8 +111,9 @@ body {
   }
 
   /* Navbar positioning foo */
+  /* Custom: Set margin-top to zero to avoid the upper padding. */
   .navbar-wrapper {
-    margin-top: 20px;
+    margin-top: 0;
   }
   .navbar-wrapper .container {
     padding-left:  15px;
