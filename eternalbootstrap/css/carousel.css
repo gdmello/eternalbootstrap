@@ -31,6 +31,11 @@ body {
   padding-right: 15px;
 }
 
+/* Custom: Set wooden background image for navbar.*/
+.navbar {
+    #background-image: url('../img/wooden-menu-background.png')
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -153,3 +158,4 @@ body {
     margin-top: 120px;
   }
 }
+
