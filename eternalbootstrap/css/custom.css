@@ -39,7 +39,6 @@
 	margin-right: 0;
 }
 
-<<<<<<< HEAD
 .passion-247-header-container {
 	padding-top: 57px;
 	padding-bottom: 10px;
@@ -93,7 +92,7 @@
 	color: #ffff00;
 	font-size: large;
 	text-align: center;
-=======
+
 /* Set margin-top to zero to avoid the upper padding. */
 .navbar-wrapper {
     margin-top: 0;
@@ -104,5 +103,4 @@
 /* Set the carousel background color. */
 .carousel-bgcolor {
 	background-color: #5a5a5a
->>>>>>> 45bfae9... Moved custom css to custom.css
 }
