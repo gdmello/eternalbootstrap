@@ -92,15 +92,48 @@
 	color: #ffff00;
 	font-size: large;
 	text-align: center;
-
-/* Set margin-top to zero to avoid the upper padding. */
-.navbar-wrapper {
-    margin-top: 0;
-    background-color: #222;
-    z-index: 0; /* Set to lowest in the stack, so the carousel slides are higher in the stack.*/
 }
 
-/* Set the carousel background color. */
-.carousel-bgcolor {
-	background-color: #5a5a5a
+/* Allow rows to be displayed completely at the right. */
+.row {
+	margin-right: 0;
+}
+
+.passion-background {
+	background-image:url('../img/247/passionofjesus-background.png');
+	background-repeat:repeat-x;
+}
+
+.passion-247-pad {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.passion-247-timer {
+	color: #fff000;
+	font-size: large;
+	font-weight: bold;
+	text-align: right;
+}
+
+.passion-247-title {
+	color: #fff000;
+	font-size: large;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+}
+
+.passion-247-prayer {
+	color: #fff;
+	font-size: large;
+	text-align: center;
+}
+
+.passion-247-fruit {
+	color: #ffff00;
+	font-size: large;
+	text-align: center;
 }
