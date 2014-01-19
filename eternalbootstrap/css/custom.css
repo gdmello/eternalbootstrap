@@ -17,9 +17,9 @@
 .navbar-wrapper .container-new {
     padding-left:  15px;
     padding-right: 15px;
-  }
+}
 
   /* Custom: Set margin-top to zero to avoid the upper padding. */
- .navbar-wrapper {
+.navbar-wrapper {
     margin-top: 0;
-  }
+}
