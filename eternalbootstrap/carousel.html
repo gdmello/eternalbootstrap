@@ -25,6 +25,7 @@
 
 <!-- Custom styles for this template -->
 <link href="css/carousel.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
 </head>
 <!-- NAVBAR
 ================================================== -->
@@ -93,12 +94,12 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
 <ol class="carousel-indicators">
-	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="0"></li>
 	<li data-target="#myCarousel" data-slide-to="1"></li>
 	<li data-target="#myCarousel" data-slide-to="2"></li>
 	<li data-target="#myCarousel" data-slide-to="3"></li>
 	<li data-target="#myCarousel" data-slide-to="4"></li>
-	<li data-target="#myCarousel" data-slide-to="5"></li>
+	<li data-target="#myCarousel" data-slide-to="5" class="active"></li>
 </ol>
 
 <div class="carousel-inner">
@@ -158,6 +159,22 @@
 			</div>
 		</div>
 	</div>
+	<div class="item">
+		<div class="row">
+			<div class="col-md-6">
+				Image
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					Timer
+				</div>
+				<div class="row">
+					Text
+				</div>
+			</div>
+		</div>
+		
+	</div>
 </div>
 <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -174,14 +191,6 @@
 <!-- Three columns of text below the carousel -->
 <div class="row">
 <div class="col-lg-4">
-<a href="https://itunes.apple.com/ca/app/passion-of-jesus/id604395834?mt=8&amp;uo=4" target="_blank">
-	<img class="img-polaroid" alt="iPhone5 - PassionOfJesus" src="http://www.eternallifesaver.com/wp-content/uploads/2013/05/iPhone5-PassionOfJesus-300x3001.png">
-</a>
-<h2>Passion App</h2>
-<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-</div><!-- /.col-lg-4 -->
-<div class="col-lg-4">
 <a href="#bookletlink" target="_blank">
 	<img class="img-polaroid" alt="booklets" src="img/mini-booklet-300x300.png">
 </a>
@@ -189,6 +198,16 @@
 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
 </div><!-- /.col-lg-4 -->
+
+<div class="col-lg-4">
+<a href="https://itunes.apple.com/ca/app/passion-of-jesus/id604395834?mt=8&amp;uo=4" target="_blank">
+	<img class="img-polaroid" alt="iPhone5 - PassionOfJesus" src="http://www.eternallifesaver.com/wp-content/uploads/2013/05/iPhone5-PassionOfJesus-300x3001.png">
+</a>
+<h2>Passion App</h2>
+<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+</div><!-- /.col-lg-4 -->
+
 <div class="col-lg-4">
 <a href="http://www.revolvermaps.com/?target=enlarge&amp;i=9uc3skp0237&amp;color=ff0000&amp;m=0" target="_blank">
 	<img class="img-polaroid" src="http://rj.revolvermaps.com/h/m/a/0/ff0000/129/40/9uc3skp0237.png" width="340" height="200" alt="Map" style="border: 0px;">
@@ -255,6 +274,15 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script>
+$(function() {
+    $('.carousel').each(function(){
+        $(this).carousel({
+            interval: false
+        });
+    });
+});​
+</script>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="http://getbootstrap.com/docs-assets/js/holder.js"></script>
