@@ -7,3 +7,19 @@
 	margin-left: 19%;
 	margin-right:19%;
 }
+
+/* Custom: Set wooden background image for navbar.*/
+.navbar {
+    #background-image: url('../img/wooden-menu-background.png')
+}
+
+/* Navbar custom container */
+.navbar-wrapper .container-new {
+    padding-left:  15px;
+    padding-right: 15px;
+  }
+
+  /* Custom: Set margin-top to zero to avoid the upper padding. */
+ .navbar-wrapper {
+    margin-top: 0;
+  }
