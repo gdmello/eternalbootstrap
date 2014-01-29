@@ -43,6 +43,7 @@
 /* Allow rows to be displayed completely at the right. */
 .row {
 	margin-right: 0;
+	margin-left: 0;
 }
 
 .passion-247-header-container {
