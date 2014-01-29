@@ -21,12 +21,18 @@
 	margin-top: auto;
 	z-index: -1;
 	position: static;
+	height: auto;
 }
 
 .carousel-inner {
-	width: 62%;
-	margin-left: 19%;
-	margin-right:19%;
+	width: 82%;
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+.carousel .item {
+  height: 100%;
+  background-color: #5a5a5a;
 }
 
 /* Set the carousel background color. */
@@ -52,7 +58,10 @@
 
 .passion-background {
 	background-image:url('../img/247/passionofjesus-background.png');
+	background-color: #5a5a5a;
 	background-repeat:repeat-x;
+	height:100%;
+	margin-bottom: 20px;
 }
 
 .passion-247-pad {
@@ -60,6 +69,11 @@
 	padding-right: 5px;
 	padding-bottom: 5px;
 	padding-left: 5px;
+}
+
+.passion-247-image {
+	height: 350px;
+	width:350px;
 }
 
 .passion-247-timer {
@@ -80,56 +94,12 @@
 
 .passion-247-prayer {
 	color: #fff;
-	font-size: large;
+	font-size: medium;
 	text-align: center;
 }
 
 .text-shadow {
 	text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-}
-
-.passion-247-fruit {
-	color: #ffff00;
-	font-size: large;
-	text-align: center;
-}
-
-/* Allow rows to be displayed completely at the right. */
-.row {
-	margin-right: 0;
-}
-
-.passion-background {
-	background-image:url('../img/247/passionofjesus-background.png');
-	background-repeat:repeat-x;
-}
-
-.passion-247-pad {
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-}
-
-.passion-247-timer {
-	color: #fff000;
-	font-size: large;
-	font-weight: bold;
-	text-align: right;
-}
-
-.passion-247-title {
-	color: #fff000;
-	font-size: large;
-	text-decoration: underline;
-	font-weight: bold;
-	text-align: center;
-}
-
-.passion-247-prayer {
-	color: #fff;
-	font-size: large;
-	text-align: center;
 }
 
 .passion-247-fruit {
