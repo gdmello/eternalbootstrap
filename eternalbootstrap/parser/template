@@ -1,0 +1,21 @@
+<div class="item active ">
+	<div class="row passion-background">
+		<div class="col-md-5 col-lg-4">
+			<img src="img\247\{img_url}" alt="{img_alt}" class="passion-247-image">
+		</div>
+		<div class="col-md-7 col-lg-8 text-shadow passion-background">
+			<div class="row passion-247-timer passion-247-pad">
+				{time}
+			</div>
+			<div class="row passion-247-title passion-247-pad">
+				{title}
+			</div>
+			<div class="row passion-247-prayer passion-247-pad">
+				{prayer}
+			</div>
+			<div class="row passion-247-fruit passion-247-pad">
+				{fruit}
+			</div>
+		</div>
+	</div>
+</div>
