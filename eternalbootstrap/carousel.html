@@ -277,7 +277,7 @@
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="http://getbootstrap.com/docs-assets/js/holder.js"></script>
 <script type="text/javascript" src="js/date-en-US.js"></script>
-<script type="text/javascript" src="js/hourly-passion-reflection-calculation.js"></script>
+<script type="text/javascript" src="js/passion-hourly-reflection-calculation.js"></script>
 <script>
     $('.carousel').each(function(){
         $(this).carousel({
@@ -285,11 +285,11 @@
         });
     });
   $(document).ready(function(){
-  	alert("In the name of Jesus we have the victory!!!");
+  	console.log("In the name of Jesus we have the victory!!!");
+    var slideNumber = getCurrentPassionSlideNumber(new Date());
+    console.log("Slide Number : "+slideNumber);
     $(".carousel").carousel(2);
   });
-    // $(".carousel").carousel();
-    // $(".carousel").carousel(1);
 </script>
 </body>
 </html>
