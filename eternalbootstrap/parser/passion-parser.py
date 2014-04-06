@@ -32,7 +32,8 @@ def get_image_url_and_alt(soup):
 
 
 slide_list = []
-html_files = [ f for f in os.listdir(home_dir) if (os.path.isfile(os.path.join(home_dir, f)) and (os.path.splitext(f)[1] in HTML))]
+html_files = sorted([ f for f in os.listdir(home_dir) if (os.path.isfile(os.path.join(home_dir, f)) and (os.path.splitext(f)[1] in HTML))])
+
 for file in html_files:
 	file_ext = os.path.splitext(file)
 	
