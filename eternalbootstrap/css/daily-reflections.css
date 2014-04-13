@@ -6,4 +6,18 @@
 
 #daily-prayer-container {
 	width: 75%;
+	padding-left:0;
+}
+
+.daily-prayer-background {
+	background-image:url('../img/daily-reflections/passion/passionofJesus-background.png');
+	background-color: #5a5a5a;
+	background-repeat:repeat-x;
+	height:100%;
+	margin-bottom: 20px;
+}
+
+.daily-reflection-text {
+	color: #ddd;
+	text-shadow: 1px 1px 0px #000;	
 }

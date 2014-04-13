@@ -17,6 +17,12 @@
 	margin-left: 1%;
 }
 
+h3.bible-sidebar-title {
+	background-color: #1B1209;
+	color:#f5f1eb;
+	padding:7px;
+}
+
 body {
 	#text-shadow: 1px 1px 0px #000;
 }
