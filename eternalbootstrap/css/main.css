@@ -1,0 +1,22 @@
+.header-stylized {
+	#background: url(images/bg_ribbon.png) repeat-x;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26,26,26,0.5)), to(rgba(0,0,0,0.55)));
+	background-image: -moz-linear-gradient(rgba(26,26,26,0.5) 0%, rgba(0,0,0,0.55) 100%);
+	border-bottom: 1px solid #191919;
+	margin: -22px auto 0;
+	overflow: hidden;
+	#font-family: 'Josefin Sans', Arial, sans-serif;
+	font-weight: 300;
+	color: #f5f1eb;
+	width:100%;
+}
+
+.bible-sidebar {
+	background: rgba(0,0,0,0.2);
+	width: 24%;
+	margin-left: 1%;
+}
+
+body {
+	#text-shadow: 1px 1px 0px #000;
+}
