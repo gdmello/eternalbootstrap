@@ -115,7 +115,7 @@
 
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="../js/date-en-US.js"></script>
+<script type="text/javascript" src="../js/moment.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <script>
   function initializeTabs() {
@@ -124,8 +124,10 @@
 </script>
 
 <script type="text/javascript">
+
 	$(document).ready(function() {
-		$("#daily-prayer-container").load("friday.html", function() {
+		var dayName = moment().format("dddd").toLowerCase();
+		$("#daily-prayer-container").load(dayName.concat(".html"), function() {
 			initializeTabs();
 		});
 	});
