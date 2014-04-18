@@ -1,0 +1,10 @@
+.daily-prayer-container {
+	background-image:url('../img/daily-reflections/passion/passionofJesus-background.png');
+	background-color: #5a5a5a;
+	background-repeat:repeat;
+	color: #f5f1eb;
+	line-height: 26px;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	text-align: center;
+}
