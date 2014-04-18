@@ -1,9 +1,43 @@
-#passion-app-video-container {
+#passion-app-video-container, #passion-app-faq-container {
 	background-color: #3a3a3a;
 	color: #f5f1eb;
 	line-height: 26px;
 	text-shadow: 1px 1px 0px #000;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	
+}
+
+.answer {
+    display:none;
+}
+ 
+.question {
+    line-height:24px;
+    font-weight:700;
+    color:#ffff00;
+    padding-left:24px;
+    cursor:pointer;
+    background-image:url('/img/passion-of-jesus/faqs/open.png');
+    background-position:left;
+    background-repeat:no-repeat;
+}
+ 
+.close {
+    background-image:url('/img/passion-of-jesus/faqs/close.png');
+    float:none;
+    font-size: inherit;
+    opacity:.8;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.close:hover {
+	color:#ffff00;
+	opacity:.8;
+	text-shadow: 1px 1px 0px #000;
+}
+
+.close:focus {
+	color:#ffff00;
+	opacity:.8;
+	text-shadow: 1px 1px 0px #000;
 }
