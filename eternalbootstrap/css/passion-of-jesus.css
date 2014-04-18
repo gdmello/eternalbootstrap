@@ -17,13 +17,13 @@
     color:#ffff00;
     padding-left:24px;
     cursor:pointer;
-    background-image:url('/img/passion-of-jesus/faqs/open.png');
+    background-image:url('../img/passion-of-jesus/faqs/open.png');
     background-position:left;
     background-repeat:no-repeat;
 }
  
 .close {
-    background-image:url('/img/passion-of-jesus/faqs/close.png');
+    background-image:url('../img/passion-of-jesus/faqs/close.png');
     float:none;
     font-size: inherit;
     opacity:.8;
@@ -40,4 +40,8 @@
 	color:#ffff00;
 	opacity:.8;
 	text-shadow: 1px 1px 0px #000;
+}
+
+p {
+	padding-left: 24px;
 }
