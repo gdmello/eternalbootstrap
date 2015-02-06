@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,93 +7,34 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
-
     <title>The Passion Of Jesus Christ</title>
-
     <!-- Bootstrap core CSS -->
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-
+    <script type="text/javascript" src="js/header.js"></script>
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
-<div class="navbar-wrapper">
-<div class="container">
-
-<div class="navbar navbar-inverse navbar-static-top" role="navigation">
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="#">Eternal Life Saver</a>
-</div>
-<div class="navbar-collapse collapse">
-<ul class="nav navbar-nav">
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Passion of Jesus <b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="#247">Passion of Jesus 24/7</a></li>
-    <li><a href="#dailyreflections">Daily Reflections</a></li>
-    <li class="divider"></li>
-    <li class="dropdown-header">Passion App</li>
-    <li><a href="#video">Video</a></li>
-    <li><a href="#faqs">FAQ's</a></li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prayers <b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="#dailyoffering">Daily Offering</a></li>
-    <li><a href="#dailyconsecration">Daily Consecration</a></li>
-    <li><a href="#dailymothermaryprayer">Daily Prayer To The Blessed Virgin Mary</a></li>
-    <li><a href="#forgivenessprayer">Forgiveness Prayer</a></li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="#dailymass">Daily Mass Online</a></li>
-    <li><a href="#dailyadoration">Daily Adoration Online</a></li>
-  </ul>
-</li>
-<li><a href="#about">About Us</a></li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="#orders">Orders</a></li>
-  </ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-
-</div>
-</div>
+    <div class="navbar-wrapper">
+      <div id="header" class="container">
+        <!-- Header -->
+      </div>
+    </div>
+    
     <div class="site-wrapper">
-
       <div class="site-wrapper-inner">
-
         <div class="cover-container">
-
           <div class="masthead clearfix">
             <!--
             <div class="inner">
@@ -104,173 +44,170 @@
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
-            -->
+              -->
             </div>
           </div>
-
           <div class="inner cover">
             <!-- Test -->
             <div id="carousel_box">
-                <div id="carousel_box_inner">
-                   <link type="text/css" rel="stylesheet" href="css/homepage-overrides.css">
-                  <link type="text/css" rel="stylesheet" href="css/jquery/3d-carousel/cj-carousel.css">
-                  <script type="text/javascript" src="js/jquery/3d-carousel/Jacked.min.js"></script>
-                  <script type="text/javascript" src="js/jquery/3d-carousel/jquery.cj-carousel.js"></script>
-
-                  <!-- Begin carousel markup -->
-                  <div class="cj-wrapper">
-                    <!--
-                      autoPlay: Auto spin the carousel, true/false
-                      animateIn: Animate the carousel in, true/false
-                      hoverShine: The HTML5 Canvas "shine" effect on mouseover, true/false
-                      reflection: Use image reflection, true/false
-                      reflectionAlpha: The reflection's transparency level, 0-1
-                      
-                      spacing: The spacing between items
-                      rotateX: Negative number allows you to see the carousel items in the back better
-                      rotateZ: Rotates the carousel on an angle
-                      translateZ: Adds depth to the carousel
-                      
-                      speed: The speed at which the carousel moves (without mouse interaction)
-                      threshold: This number is used to speed up the carousel during mouse interaction
-                      
-                      fallbackColumns: The number of columns to create for the fallback thumb grid mode
-                      fallbackSpacing: The spacing to be applied to the items in fallback thumb grid mode
-                      smartphonesUseFallback: Choose to use the thumbnail frid for smartphones, true/false
-                      smartphoneFallbackIsResponsive: Choose to use display the thumbnails in a blocked/vertical presentation, true/false
-                      
+              <div id="carousel_box_inner">
+                <link type="text/css" rel="stylesheet" href="css/homepage-overrides.css">
+                <link type="text/css" rel="stylesheet" href="css/jquery/3d-carousel/cj-carousel.css">
+                <script type="text/javascript" src="js/jquery/3d-carousel/Jacked.min.js"></script>
+                <script type="text/javascript" src="js/jquery/3d-carousel/jquery.cj-carousel.js"></script>
+                <!-- Begin carousel markup -->
+                <div class="cj-wrapper">
+                  <!--
+                  autoPlay: Auto spin the carousel, true/false
+                  animateIn: Animate the carousel in, true/false
+                  hoverShine: The HTML5 Canvas "shine" effect on mouseover, true/false
+                  reflection: Use image reflection, true/false
+                  reflectionAlpha: The reflection's transparency level, 0-1
+                  
+                  spacing: The spacing between items
+                  rotateX: Negative number allows you to see the carousel items in the back better
+                  rotateZ: Rotates the carousel on an angle
+                  translateZ: Adds depth to the carousel
+                  
+                  speed: The speed at which the carousel moves (without mouse interaction)
+                  threshold: This number is used to speed up the carousel during mouse interaction
+                  
+                  fallbackColumns: The number of columns to create for the fallback thumb grid mode
+                  fallbackSpacing: The spacing to be applied to the items in fallback thumb grid mode
+                  smartphonesUseFallback: Choose to use the thumbnail frid for smartphones, true/false
+                  smartphoneFallbackIsResponsive: Choose to use display the thumbnails in a blocked/vertical presentation, true/false
+                  
+                  -->
+                  <div class="cj-carousel" data-autoplay="true" data-animatein="true" data-hovershine="true" data-reflection="true" data-reflectalpha="0.5" data-captionsalwaysvisible="false" data-spacing="60" data-rotateX="-18" data-rotateZ="0" data-translateZ="0" data-speed="0.1" data-threshold=".0025" data-fallbackcolumns="4" data-fallbackspacing="5" data-smartphonesusefallback="true" data-smartphonefallbackisresponsive="true">
+                    <!-- end of tag -->
+                    <div class="cj-container">
+                      <!--
+                      Begin carousel item
+                      To create a new item, duplicate a "figure"
+                      To eliminate an item, delete a "figure"
                       -->
-                    <div class="cj-carousel" data-autoplay="true" data-animatein="true" data-hovershine="true" data-reflection="true" data-reflectalpha="0.5" data-captionsalwaysvisible="false" data-spacing="60" data-rotateX="-18" data-rotateZ="0" data-translateZ="0" data-speed="0.1" data-threshold=".0025" data-fallbackcolumns="4" data-fallbackspacing="5" data-smartphonesusefallback="true" data-smartphonefallbackisresponsive="true">
-                      <!-- end of tag -->
-                      <div class="cj-container">
-                        <!--
-                          Begin carousel item
-                            To create a new item, duplicate a "figure"
-                            To eliminate an item, delete a "figure"
-                          -->
-                        <figure>
-                          <!-- data-url = optional url to click through to -->
-                          <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
-                          <!-- For no link, delete the "data-url" attribute -->
-                          <div class="cj-thumb"  data-target="_parent">
-                            <!-- The image to load, place the image url inside the "data-src" attribute -->
-                            <img src="img/pixel.gif" data-src="img/PassionOfJesus-Main.png" width="340" height="250" alt="CSS3 3D Carousel" />
-                            <!-- Optional carousel caption, delete entirely for no caption -->
-                            <div class="cj-caption">
-                              <!-- Any HTML can go inside this container -->
-                              <div>
-                                <h3>Passion Of Jesus</h3>
-                                <!--<p>This is some text and this is some more and this is some more</p>-->
-                              </div>
+                      <figure>
+                        <!-- data-url = optional url to click through to -->
+                        <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
+                        <!-- For no link, delete the "data-url" attribute -->
+                        <div class="cj-thumb"  data-target="_parent">
+                          <!-- The image to load, place the image url inside the "data-src" attribute -->
+                          <img src="img/pixel.gif" data-src="img/PassionOfJesus-Main.png" width="340" height="250" alt="CSS3 3D Carousel" />
+                          <!-- Optional carousel caption, delete entirely for no caption -->
+                          <div class="cj-caption">
+                            <!-- Any HTML can go inside this container -->
+                            <div>
+                              <h3>Passion Of Jesus</h3>
+                              <!--<p>This is some text and this is some more and this is some more</p>-->
                             </div>
-                            
-                          </div>
-                        </figure>
-                        <!-- End carousel item -->
-                        <figure>
-                          <!-- data-url = optional url to click through to -->
-                          <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
-                          <!-- For no link, delete the "data-url" attribute -->
-                          <div class="cj-thumb" data-target="_parent">
-                            <!-- The image to load, place the image url inside the "data-src" attribute -->
-                            <img src="img/pixel.gif" data-src="img/PassionOfJesus-JPII.png" width="340" height="250" alt="CSS3 3D Carousel" />
-                            <!-- Optional carousel caption, delete entirely for no caption -->
-                            <div class="cj-caption">
-                              <!-- Any HTML can go inside this container -->
-                              <div>
-                                <h3>Passion Of Jesus 2</h3>
-                                <!--<p>This is some text and this is some more and this is some more</p>-->
-                              </div>
-                            </div>
-                            
                           </div>
                           
-                        </figure>
-                        <!-- End carousel item -->
-                        <figure>
-                          <!-- data-url = optional url to click through to -->
-                          <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
-                          <!-- For no link, delete the "data-url" attribute -->
-                          <div class="cj-thumb" data-url="" data-target="_parent">
-                            <!-- The image to load, place the image url inside the "data-src" attribute -->
-                            <img src="img/pixel.gif" data-src="img/PassionOfJesus-BeTransformed.png" width="340" height="250" alt="CSS3 3D Carousel" />
-                            <!-- Optional carousel caption, delete entirely for no caption -->
-                            <div class="cj-caption">
-                              <!-- Any HTML can go inside this container -->
-                              <div>
-                                <h3>Passion Of Jesus - Be Transformed</h3>
-                                <!--<p>This is some text and this is some more and this is some more</p>-->
-                              </div>
+                        </div>
+                      </figure>
+                      <!-- End carousel item -->
+                      <figure>
+                        <!-- data-url = optional url to click through to -->
+                        <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
+                        <!-- For no link, delete the "data-url" attribute -->
+                        <div class="cj-thumb" data-target="_parent">
+                          <!-- The image to load, place the image url inside the "data-src" attribute -->
+                          <img src="img/pixel.gif" data-src="img/PassionOfJesus-JPII.png" width="340" height="250" alt="CSS3 3D Carousel" />
+                          <!-- Optional carousel caption, delete entirely for no caption -->
+                          <div class="cj-caption">
+                            <!-- Any HTML can go inside this container -->
+                            <div>
+                              <h3>Passion Of Jesus 2</h3>
+                              <!--<p>This is some text and this is some more and this is some more</p>-->
                             </div>
-                            
                           </div>
                           
-                        </figure>
-                        <!-- End carousel item -->
-                        <figure>
-                          <!-- data-url = optional url to click through to -->
-                          <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
-                          <!-- For no link, delete the "data-url" attribute -->
-                          <div class="cj-thumb" data-url="" data-target="_parent">
-                            <!-- The image to load, place the image url inside the "data-src" attribute -->
-                            <img src="img/pixel.gif" data-src="img/PassionOfJesus-Booklet.png" width="340" height="250" alt="CSS3 3D Carousel" />
-                            <!-- Optional carousel caption, delete entirely for no caption -->
-                            <div class="cj-caption">
-                              <!-- Any HTML can go inside this container -->
-                              <div>
-                                <h3>Passion Of Jesus - Booklet</h3>
-                                <!--<p>This is some text and this is some more and this is some more</p>-->
-                              </div>
+                        </div>
+                        
+                      </figure>
+                      <!-- End carousel item -->
+                      <figure>
+                        <!-- data-url = optional url to click through to -->
+                        <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
+                        <!-- For no link, delete the "data-url" attribute -->
+                        <div class="cj-thumb" data-url="" data-target="_parent">
+                          <!-- The image to load, place the image url inside the "data-src" attribute -->
+                          <img src="img/pixel.gif" data-src="img/PassionOfJesus-BeTransformed.png" width="340" height="250" alt="CSS3 3D Carousel" />
+                          <!-- Optional carousel caption, delete entirely for no caption -->
+                          <div class="cj-caption">
+                            <!-- Any HTML can go inside this container -->
+                            <div>
+                              <h3>Passion Of Jesus - Be Transformed</h3>
+                              <!--<p>This is some text and this is some more and this is some more</p>-->
                             </div>
-                            
                           </div>
                           
-                        </figure>
-                        <figure>
-                          <!-- data-url = optional url to click through to -->
-                          <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
-                          <!-- For no link, delete the "data-url" attribute -->
-                          <div class="cj-thumb" data-url="" data-target="_parent">
-                            <!-- The image to load, place the image url inside the "data-src" attribute -->
-                            <img src="img/pixel.gif" data-src="img/PassionOfJesus-App.png" width="340" height="250" alt="CSS3 3D Carousel" />
-                            <!-- Optional carousel caption, delete entirely for no caption -->
-                            <div class="cj-caption">
-                              <!-- Any HTML can go inside this container -->
-                              <div>
-                                <h3>Passion Of Jesus - App</h3>
-                                <!--<p>This is some text and this is some more and this is some more</p>-->
-                              </div>
+                        </div>
+                        
+                      </figure>
+                      <!-- End carousel item -->
+                      <figure>
+                        <!-- data-url = optional url to click through to -->
+                        <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
+                        <!-- For no link, delete the "data-url" attribute -->
+                        <div class="cj-thumb" data-url="" data-target="_parent">
+                          <!-- The image to load, place the image url inside the "data-src" attribute -->
+                          <img src="img/pixel.gif" data-src="img/PassionOfJesus-Booklet.png" width="340" height="250" alt="CSS3 3D Carousel" />
+                          <!-- Optional carousel caption, delete entirely for no caption -->
+                          <div class="cj-caption">
+                            <!-- Any HTML can go inside this container -->
+                            <div>
+                              <h3>Passion Of Jesus - Booklet</h3>
+                              <!--<p>This is some text and this is some more and this is some more</p>-->
                             </div>
-                            
                           </div>
                           
-                        </figure>
-                        <figure>
-                          <!-- data-url = optional url to click through to -->
-                          <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
-                          <!-- For no link, delete the "data-url" attribute -->
-                          <div class="cj-thumb" data-url="" data-target="_parent">
-                            <!-- The image to load, place the image url inside the "data-src" attribute -->
-                            <img src="img/pixel.gif" data-src="img/PassionOfJesus-App-2.png" width="340" height="250" alt="CSS3 3D Carousel" />
-                            <!-- Optional carousel caption, delete entirely for no caption -->
-                            <div class="cj-caption">
-                              <!-- Any HTML can go inside this container -->
-                              <div>
-                                <h3>Passion Of Jesus - App 2</h3>
-                                <!--<p>This is some text and this is some more and this is some more</p>-->
-                              </div>
+                        </div>
+                        
+                      </figure>
+                      <figure>
+                        <!-- data-url = optional url to click through to -->
+                        <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
+                        <!-- For no link, delete the "data-url" attribute -->
+                        <div class="cj-thumb" data-url="" data-target="_parent">
+                          <!-- The image to load, place the image url inside the "data-src" attribute -->
+                          <img src="img/pixel.gif" data-src="img/PassionOfJesus-App.png" width="340" height="250" alt="CSS3 3D Carousel" />
+                          <!-- Optional carousel caption, delete entirely for no caption -->
+                          <div class="cj-caption">
+                            <!-- Any HTML can go inside this container -->
+                            <div>
+                              <h3>Passion Of Jesus - App</h3>
+                              <!--<p>This is some text and this is some more and this is some more</p>-->
                             </div>
-                            
                           </div>
                           
-                        </figure>
-                        <!-- End carousel item -->
-                      </div>
+                        </div>
+                        
+                      </figure>
+                      <figure>
+                        <!-- data-url = optional url to click through to -->
+                        <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
+                        <!-- For no link, delete the "data-url" attribute -->
+                        <div class="cj-thumb" data-url="" data-target="_parent">
+                          <!-- The image to load, place the image url inside the "data-src" attribute -->
+                          <img src="img/pixel.gif" data-src="img/PassionOfJesus-App-2.png" width="340" height="250" alt="CSS3 3D Carousel" />
+                          <!-- Optional carousel caption, delete entirely for no caption -->
+                          <div class="cj-caption">
+                            <!-- Any HTML can go inside this container -->
+                            <div>
+                              <h3>Passion Of Jesus - App 2</h3>
+                              <!--<p>This is some text and this is some more and this is some more</p>-->
+                            </div>
+                          </div>
+                          
+                        </div>
+                        
+                      </figure>
+                      <!-- End carousel item -->
                     </div>
                   </div>
+                </div>
                 <!-- End carousel markup -->
-
-              <div class="clear"></div>
+                <div class="clear"></div>
               </div>
             </div>
             <!-- Test ends -->
