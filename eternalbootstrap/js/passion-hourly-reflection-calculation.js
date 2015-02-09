@@ -1,4 +1,4 @@
-function getCurrentPassionSlideNumber(dateToCheck) {
+function getCurrentPassionThorn(dateToCheck) {
 	console.log("Date to check: " + dateToCheck);
 	var todayCopy = dateToCheck.clone();
 	var prayerHoursAscending = [
@@ -44,8 +44,7 @@ function getCurrentPassionSlideNumber(dateToCheck) {
 	for(var i=0; i<prayerHoursAscending.length; i++) {
 		if(Date.compare(todayCopy, prayerHoursAscending[i][0]) < 0 ) {
 			var pageIndex = ((i-1) < 0)? 0: i-1;//A little trickiness around midnight.
-
-			return prayerHoursAscending[pageIndex][1];
+			return prayerHoursAscending[pageIndex];
 		}
 	}
 
@@ -53,3 +52,12 @@ function getCurrentPassionSlideNumber(dateToCheck) {
 	return prayerHoursAscending[pageIndex][1];
 }
 
+function getCurrentPassionSlideNumber(dateToCheck) {
+	currentThorn = getCurrentPassionThorn(dateToCheck)
+	return currentThorn[1]
+}
+
+function getCurrentPassionHourlyPrayerToDisplay(dateToCheck) {
+	currentThorn = getCurrentPassionThorn(dateToCheck)
+	return 'passionOfJesusHourlyPrayer-'+currentThorn[0].toString("HH-mm")+'.html';
+}
