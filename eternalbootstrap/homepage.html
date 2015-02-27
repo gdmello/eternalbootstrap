@@ -13,6 +13,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript">
+      function loadLightBox(url) {
+        //alert("In load light box "+url)
+        $.colorbox({className:'color-box-style', href:url});
+      }
+    </script>
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
@@ -90,16 +96,20 @@
                         <!-- data-url = optional url to click through to -->
                         <!-- data-target = the window target for an option url, "_parent" or "_blank" -->
                         <!-- For no link, delete the "data-url" attribute -->
-                        <div class="cj-thumb"  data-target="_parent">
+                        <div class="cj-thumb" data-target="_parent" data-url="javascript:loadLightBox('http://www.eternallifesaver.com/new/passion-of-jesus/hourly-reflections/passionOfJesusHourlyPrayer-00-00-test.html')">
                           <!-- The image to load, place the image url inside the "data-src" attribute -->
+                          <!--<a href="http://www.eternallifesaver.com/new/passion-of-jesus/passion-faqs.html" class="ajax">-->
+
                           <img src="img/pixel.gif" data-src="img/PassionOfJesus-Main.png" width="340" height="250" alt="CSS3 3D Carousel" />
+                        <!--</a>-->
                           <!-- Optional carousel caption, delete entirely for no caption -->
                           <div class="cj-caption">
                             <!-- Any HTML can go inside this container -->
-                            <div>
+                            <div id="passion-of-jesus-content-carousel">
                               <h3>Passion Of Jesus</h3>
                               <!--<p>This is some text and this is some more and this is some more</p>-->
                             </div>
+                            
                           </div>
                           
                         </div>
@@ -221,5 +231,11 @@
     
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script>
+      //$(document).ready(function(){
+      //    $("ajax").colorbox();
+      //});
+    </script>
   </body>
 </html>
