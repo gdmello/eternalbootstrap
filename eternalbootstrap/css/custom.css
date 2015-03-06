@@ -14,7 +14,7 @@
 .navbar-wrapper {
     margin-top: 0;
     background-color: #222;
-    z-index: 0; /* Set to lowest in the stack, so the carousel slides are higher in the stack.*/
+    /* z-index: 0; Set to lowest in the stack, so the carousel slides are higher in the stack. Can't set to lowest since this cuts off opened drop down menus. */
 }
 
 .carousel {

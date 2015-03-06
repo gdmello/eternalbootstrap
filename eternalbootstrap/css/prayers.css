@@ -6,5 +6,13 @@
 	line-height: 26px;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-	text-align: center;
+	text-align: left;
+	text-shadow: 1px 1px 0 #000000;
+}
+
+h5 {
+	font-family: 'Josefin Sans',Arial,sans-serif;
+	line-height: 26px;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
