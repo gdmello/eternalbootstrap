@@ -16,3 +16,14 @@ h5 {
 	font-size: 18px;
 	margin-bottom: 20px;
 }
+
+
+.totally-yours-container {
+	background-color: #3a3a3a;
+	color: #f5f1eb;
+	line-height: 26px;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	text-align: left;
+	text-shadow: 1px 1px 0 #000000;
+}
